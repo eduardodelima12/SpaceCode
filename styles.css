@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.perfil {
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-fluid {
+    max-width: 40%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.perfil_frontend {
+    padding: 200px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.lista_perfil {
+    list-style-type: none;
+    border: 1px solid #bbb7b7;
+    border-radius: 5px;
+    background-color: #bbb7b7;
+    width: 1030px;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.itens_perfil { 
+    border-radius: 5px;
+    width: 300px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 12%, rgba(2, 0, 36, 1) 37%, rgba(22, 7, 100, 1) 64%, rgba(22, 7, 100, 1) 70%, rgba(21, 7, 96, 1) 74%, rgba(28, 9, 121, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    flex: 1 1 30%;
+    margin: 10px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.tabelas__itens {
+    text-align: center;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.footer a {
+    margin: 10px;
+}
